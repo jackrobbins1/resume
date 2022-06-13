@@ -1,0 +1,26 @@
+{
+  "name": "jackrobbins1_resume_template",
+  "version": "1.0.0",
+  "description": "My web based resume using Boostrap@v5",
+  "main": "index.js",
+  "scripts": {
+    "compile-scss": "npx sass assets/scss/pillar-1.scss assets/css/pillar-1.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackrobbins1/jackrobbins1_resume_template.git"
+  },
+  "keywords": [
+    "Resume",
+    "CV"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackrobbins1/jackrobbins1_resume_template/issues"
+  },
+  "homepage": "https://github.com/jackrobbins1/jackrobbins1_resume_template#readme",
+  "devDependencies": {
+    "sass": "^1.52.3"
+  }
+}
