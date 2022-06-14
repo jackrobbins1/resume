@@ -208,8 +208,25 @@ a.theme-btn-on-bg,
   color: $theme-text-color-primary;
 }
 
+.resume-timeline-item-desc {
+  ul {
+    list-style-position: inside;
+    padding-left: 0;
+  }
+  li {
+    margin-bottom: 0.375rem;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
 .resume-timeline-item-desc-heading {
   font-size: 1rem;
+}
+
+.resume-projects-item {
+  padding-left: 2rem;
 }
 
 .resume-skills-cat {

@@ -10395,8 +10395,23 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active,
   color: #434e5e;
 }
 
+.resume-timeline-item-desc ul {
+  list-style-position: inside;
+  padding-left: 0;
+}
+.resume-timeline-item-desc li {
+  margin-bottom: 0.375rem;
+}
+.resume-timeline-item-desc li:last-child {
+  margin-bottom: 0;
+}
+
 .resume-timeline-item-desc-heading {
   font-size: 1rem;
+}
+
+.resume-projects-item {
+  padding-left: 2rem;
 }
 
 .resume-skills-cat {
