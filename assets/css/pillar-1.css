@@ -10230,6 +10230,17 @@ body {
   overflow-x: hidden;
 }
 
+nav {
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 1000px) {
+  nav {
+    padding: 0 1rem;
+  }
+}
+
 a {
   color: #434e5e;
 }
@@ -10279,7 +10290,6 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active,
 }
 
 .resume-wrapper {
-  padding-top: 30px;
   padding-bottom: 60px;
 }
 
